@@ -2,51 +2,75 @@
 <html lang="en">
 <head>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-
+    <link rel="stylesheet" href="css/styles.css">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Welcome to My Blog</title>
 </head>
-<body>
-    <h1>Welcome to My Blog</h1>
-    <img src "#"></img>
-    
-    <section>
-        <nav>
-        <h2>Navigation</h2>
-            <ul>
-                <li><a href="#">Home</li>
-                <li><a href="#">About</a></li>
-            </ul>
-        </nav>
-        <h2>Articles</h2>
-            <hr>
-            <div class="row">
-                <div class="col-md-6">
-                <h3>Article Title 1</h3>
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod, placeat eveniet dignissimos. Consequuntur porro quaerat voluptatem veniam soluta assumenda eos, temporibus voluptas eveniet vero? Laudantium dolorem eaque consectetur error earum.
-                    <br><br>
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Delectus blanditiis cupiditate voluptate ullam, consequuntur eos, maxime quis repellendus deserunt veritatis laborum tempora error laboriosam molestiae odit a ipsum quas dolores.
-                </div>
-                <div class="col-md-6">
-            <h3>Article Title 2</h3>
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod, placeat eveniet dignissimos. Consequuntur porro quaerat voluptatem veniam soluta assumenda eos, temporibus voluptas eveniet vero? Laudantium dolorem eaque consectetur error earum.
-                    <br><br>
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab, facere, soluta. Quasi voluptatibus ab tenetur quos nulla vitae sed! Enim dignissimos expedita eum fugit, accusamus, delectus quidem iste dolorem minus.
-                </div>
-            </div class="row">
-    </section>
 
-    <footer>
-        <h3>Footer Links</h3>
-        <ol>
-            <li>Privacy</li>
-            <li>Legal</li>
-            <li><a href="#">Fake Link 1</a></li>
-            <li><a href="#">Fake Link 2</a></li>
-        </ol>
-    </footer>   
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+<body>
+        <!--Header-->
+    <div class="header">  
+        <h1 class="header">Welcome to My Blog</h1>
+        <img src "#"></img>
+    </div>
+
+<div class="container">
+        <!--Side navbar-->
+    <nav class="navbar">
+                    <ul class="nav nav-pills">
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">About</a></li>
+                         <li><a href="#">Contact us</a></li>
+                    </ul>
+    </nav>
+        <!--Article first row-->
+        <div class="row">
+                    <h2>Articles</h2>
+                        <hr>
+                    <div class="col-md-6">
+                        <h3>Article Title 1</h3>
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod, placeat eveniet dignissimos. Consequuntur porro quaerat voluptatem veniam soluta assumenda eos, temporibus voluptas eveniet vero? Laudantium dolorem eaque consectetur error earum.
+                        <br><br>
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Delectus blanditiis cupiditate voluptate ullam, consequuntur eos, maxime quis repellendus deserunt veritatis laborum tempora error laboriosam molestiae odit a ipsum quas dolores.
+                    </div>
+
+                    <div class="col-md-6">
+                        <h3>Article Title 2</h3>
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod, placeat eveniet dignissimos. Consequuntur porro quaerat voluptatem veniam soluta assumenda eos, temporibus voluptas eveniet vero? Laudantium dolorem eaque consectetur error earum.
+                        <br><br>
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab, facere, soluta. Quasi voluptatibus ab tenetur quos nulla vitae sed! Enim dignissimos expedita eum fugit, accusamus, delectus quidem iste dolorem minus.
+                    </div>
+        </div>
+        <!--Article second row-->
+            <div class="row">   
+                    <div class="col-md-6">
+                        <h3>Article Title 3</h3>
+                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod, placeat eveniet dignissimos. Consequuntur porro quaerat voluptatem veniam soluta assumenda eos, temporibus voluptas eveniet vero? Laudantium dolorem eaque consectetur error earum.
+                                <br><br>
+                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab, facere, soluta. Quasi voluptatibus ab tenetur quos nulla vitae sed! Enim dignissimos expedita eum fugit, accusamus, delectus quidem iste dolorem minus.
+                    </div>
+                    <div class="col-md-6">
+                        <h3>Article Title 4</h3>
+                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod, placeat eveniet dignissimos. Consequuntur porro quaerat voluptatem veniam soluta assumenda eos, temporibus voluptas eveniet vero? Laudantium dolorem eaque consectetur error earum.
+                                <br><br>
+                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab, facere, soluta. Quasi voluptatibus ab tenetur quos nulla vitae sed! Enim dignissimos expedita eum fugit, accusamus, delectus quidem iste dolorem minus.
+                    </div>
+            </div>
+</div>
+        <!--Footer-->
+        <footer>
+            <ul class="nav nav-pills center-pills" id="footerNav">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Privacy</a></li>
+                <li><a href="#">Legal</a></li>
+            </ul>  
+        </footer>
+
+<script> src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 </body>
+
 </html>
